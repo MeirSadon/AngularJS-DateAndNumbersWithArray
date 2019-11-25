@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="TimeAndNumbers">
+<head>
+    <title>Angular Js</title>
+    <script src="angular.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="timeAndNumbersCtrl.ctrl.js"></script>
+</head>
+<body>
+    <div ng-controller="timeAndNumbersCtrl">
+
+        <h1>{{date}}</h1>
+        <button ng-click="refresh()">Refresh</button>
+        <h1>{{number}}</h1>
+        <button ng-click="inc()">Plus</button>
+        <button ng-click="dec()">Minus</button>
+        <button ng-click="add()">Add</button>
+        <button ng-click="print()">Print</button>
+    </div>
+</body>
+</html>
